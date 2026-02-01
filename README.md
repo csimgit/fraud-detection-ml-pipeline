@@ -41,47 +41,6 @@ Traditional accuracy-based evaluation fails in such scenarios.
 
 ---
 
-#### Repository Structure
-
-fraud-detection-ml-pipeline/
-├── data/
-│   ├── raw/
-│   │   └── creditcard.csv
-│   └── processed/
-│
-├── notebooks/
-│   └── eda.ipynb
-│
-├── results/
-│   ├── models/
-│   ├── figures/
-│   └── metrics/
-│
-├── src/
-│   ├── config/
-│   │   └── config.py
-│   ├── data/
-│   │   └── data_loader.py
-│   ├── preprocessing/
-│   │   └── preprocessing.py
-│   ├── features/
-│   │   └── feature_engineering.py
-│   ├── models/
-│   │   ├── model_registry.py
-│   │   └── train_evaluate.py
-│   ├── evaluation/
-│   │   └── metrics.py
-│   ├── pipeline/
-│   │   └── fraud_pipeline.py
-│   └── utils/
-│       └── io_utils.py
-│
-├── run_pipeline.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-
-
 #### Create Environment
 .env
 venv/
